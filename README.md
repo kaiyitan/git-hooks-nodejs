@@ -12,6 +12,7 @@ Enter  `npm install` after cloning to make use of all hooks
     - As we are using lint-staged, only file in staging area will be tested 
 2. commit message
     - All commit message need started with [ISSUE-]
+    - Example commit message: *"[ISSUE-12] Added commitlint"*
     - To modify the rules, go to **package.json** file, under **commitlint** -> **parserPreset** -> **parserOpts** -> **issuePrefixes**, change the prefix rules
 3. post commit  
     - Simply echo "Thanks for committing $GIT_AUTHOR_NAME" message if commit success
